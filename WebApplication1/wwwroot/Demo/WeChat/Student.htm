@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:52484/Student -->
+<html class="pixel-ratio-1">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<title></title>
+<link href="./Student_files/weui.min.css" rel="stylesheet">
+<link href="./Student_files/jquery-weui.min.css" rel="stylesheet">
+<link href="./Student_files/main.css" rel="stylesheet">
+</head>
+<body ontouchstart="">
+<div> 
+  <!--幻灯片-->
+  <div class="swiper-container swiper-container-horizontal">
+    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+      <div class="swiper-slide swiper-slide-active" style="width: 1423px;"><img src="./Student_files/slide-1.png" title="轮播1" width="100%"></div>
+      <div class="swiper-slide swiper-slide-next" style="width: 1423px;"><img src="./Student_files/slide-2.png" title="轮播2" width="100%"></div>
+      <div class="swiper-slide" style="width: 1423px;"><img src="./Student_files/slide-3.png" title="轮播3" width="100%"></div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+  </div>
+  
+  <!--图标分类-->
+  <div class="weui-grids"> <a class="weui-grid js_grid" href="http://localhost:52484/Unimplement">
+    <div class="weui-grid__icon"> <img src="./Student_files/icon-link1.png" alt=""> </div>
+    <p class="weui-grid__label"> 精选推荐 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/Student/Timetable">
+    <div class="weui-grid__icon"> <img src="./Student_files/icon-link2.png" alt=""> </div>
+    <p class="weui-grid__label"> 课程表 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/Student/CulTeaEva">
+    <div class="weui-grid__icon"> <img src="./Student_files/icon-link3.png" alt=""> </div>
+    <p class="weui-grid__label"> 成绩查询 </p>
+    </a> </div>
+  <div class="weui-grids"> <a class="weui-grid js_grid" href="http://localhost:52484/Unimplement">
+    <div class="weui-grid__icon"> <img src="./Student_files/icon-link4.png" alt=""> </div>
+    <p class="weui-grid__label"> 学校简介 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/weixin/Html/Student/htmlpage.html">
+    <div class="weui-grid__icon"> <img src="./Student_files/jskb.png" alt=""> </div>
+    <p class="weui-grid__label"> 教室课表查询 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/Student/CourseExam">
+    <div class="weui-grid__icon"> <img src="./Student_files/kwxx.png" alt=""> </div>
+    <p class="weui-grid__label"> 考务信息 </p>
+    </a> </div>
+  <div class="weui-grids"> <a class="weui-grid js_grid" href="http://localhost:52484/Student">
+    <div class="weui-grid__icon"> <img src="./Student_files/pyjh.png" alt=""> </div>
+    <p class="weui-grid__label"> 培养计划 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/Student/SubStuSpec">
+    <div class="weui-grid__icon"> <img src="./Student_files/xkxxcx.png" alt=""> </div>
+    <p class="weui-grid__label"> 学科信息查询 </p>
+    </a> <a class="weui-grid js_grid" href="http://localhost:52484/Student/StuInfo">
+    <div class="weui-grid__icon"> <img src="./Student_files/dsxxcx.png" alt=""> </div>
+    <p class="weui-grid__label"> 导师信息查询 </p>
+    </a> </div>
+  <!--base--> 
+  <!--base--> 
+  
+  <!--底部导航-->
+  <div class="foot-black"></div>
+  <div class="weui-tabbar wy-foot-menu animated fadeInUp delay3  weui-animate-fade-in"> <a class="weui-tabbar__item weui-bar__item--on" href="http://localhost:52484/Student">
+    <div class="weui-tabbar__icon foot-menu-home"></div>
+    <p class="weui-tabbar__label">首页</p>
+    </a> <a class="weui-tabbar__item" href="http://localhost:52484/Student/Degree">
+    <div class="weui-tabbar__icon foot-menu-notify"></div>
+    <p class="weui-tabbar__label">学位</p>
+    </a> <a class="weui-tabbar__item" href="http://localhost:52484/Student/StuMag"> <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+    <div class="weui-tabbar__icon foot-menu-message"></div>
+    <p class="weui-tabbar__label">学工</p>
+    </a> <a class="weui-tabbar__item" href="http://localhost:52484/User">
+    <div class="weui-tabbar__icon foot-menu-member"></div>
+    <p class="weui-tabbar__label">我的</p>
+    </a> </div>
+  <!--底部导航--> 
+  
+</div>
+<script src="./Student_files/jquery-2.1.4.js"></script> 
+<script src="./Student_files/jquery-weui.min.js"></script> 
+<script src="./Student_files/fastclick.js"></script> 
+<script>
+        $(function () {
+            FastClick.attach(document.body);
+        });
+    </script> 
+<script src="./Student_files/swiper.min.js"></script> 
+<script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            autoplay: 2500
+        });
+    </script>
+</body>
+</html>
